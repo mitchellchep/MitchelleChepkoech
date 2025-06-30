@@ -1,9 +1,9 @@
 // Create your Skills component here
-import {Fajs, FaReact, FaHtml5, FaCss3, FaGithub, FaDocker} from 'react-icons/fa';
+import {FaJs, FaReact, FaHtml5, FaCss3, FaGithub, FaDocker} from 'react-icons/fa';
 
 const Skills = () => {
     const skillsArr = [
-        { "name": "JavaScript", "icon": <Fajs /> },
+        { "name": "JavaScript", "icon": <FaJs /> },
         { "name": "HTML", "icon": <FaHtml5 /> },
         { "name": "CSS", "icon": <FaCss3 /> },
         { "name": "Git", "icon": <FaGithub /> },
